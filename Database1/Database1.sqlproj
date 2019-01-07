@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -151,5 +151,6 @@
     <Build Include="dbo\Functions\udfTwoDigitZeroFill.sql" />
     <Build Include="dbo\Functions\udfBuildISO8601Date.sql" />
     <Build Include="Database Triggers\ddlDatabaseTriggerLog.sql" />
+    <Build Include="dbo\StoreProc1.sql" />
   </ItemGroup>
 </Project>

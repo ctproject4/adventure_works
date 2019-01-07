@@ -30,6 +30,7 @@
     [EndDate]                              DATE            NULL,
     [Status]                               NVARCHAR (50)   NULL,
     [EmployeePhoto]                        VARBINARY (MAX) NULL,
+    [Devops_Employee] NCHAR(10) NULL, 
     CONSTRAINT [PK_DimEmployee_EmployeeKey] PRIMARY KEY CLUSTERED ([EmployeeKey] ASC),
     CONSTRAINT [FK_DimEmployee_DimEmployee] FOREIGN KEY ([ParentEmployeeKey]) REFERENCES [dbo].[DimEmployee] ([EmployeeKey]),
     CONSTRAINT [FK_DimEmployee_DimSalesTerritory] FOREIGN KEY ([SalesTerritoryKey]) REFERENCES [dbo].[DimSalesTerritory] ([SalesTerritoryKey])
