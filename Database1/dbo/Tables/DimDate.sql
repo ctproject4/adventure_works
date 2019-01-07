@@ -19,6 +19,7 @@
     [FiscalYear]           SMALLINT      NOT NULL,
     [FiscalSemester]       TINYINT       NOT NULL,
     [Sample]               NCHAR (10)    NULL,
+    [Devops] NCHAR(10) NULL, 
     CONSTRAINT [PK_DimDate_DateKey] PRIMARY KEY CLUSTERED ([DateKey] ASC)
 );
 
