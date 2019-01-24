@@ -1,6 +1,5 @@
 ﻿CREATE TABLE [dbo].[DatabaseLog] (
-    [DatabaseLogID] INT            IDENTITY (1, 1) NOT NULL,
-    [PostTime]      DATETIME       NOT NULL,
+     [PostTime]      DATETIME       NOT NULL,
     [DatabaseUser]  [sysname]      NOT NULL,
     [Event]         [sysname]      NOT NULL,
     [Schema]        [sysname]      NULL,
